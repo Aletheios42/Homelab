@@ -31,3 +31,10 @@ spec:
   values:
     grafana:
       adminPassword: mischa
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+        hosts:
+          - grafana.xn--proyecto-e2a.com
+        tls: []
+

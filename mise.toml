@@ -1,5 +1,6 @@
 [tools]
 kubectl = "latest"
+helm = "latest"
 k9s = "latest"
 sops = "3.11.0"
 age = "1.2.1"
